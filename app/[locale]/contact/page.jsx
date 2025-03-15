@@ -25,19 +25,19 @@ export default function Projects() {
           href="https://github.com/Bassam-Elsaied"
           className="p-2 bg-gray-900 text-white rounded-full shadow hover:bg-gray-700 transition"
         >
-          <IconBrandGithub size={20} />
+          <IconBrandGithub size={18} />
         </Link>
         <Link
           href="https://www.linkedin.com/in/bassam-elsayed-8227482b5/"
           className="p-2 bg-blue-600 text-white rounded-full shadow hover:bg-blue-500 transition"
         >
-          <IconBrandLinkedin size={20} />
+          <IconBrandLinkedin size={18} />
         </Link>
         <a
           href="mailto:Bassame993@gmail.com"
           className="p-2 bg-red-600 text-white rounded-full shadow hover:bg-red-500 transition"
         >
-          <IconMail size={20} />
+          <IconMail size={18} />
         </a>
       </div>
     </Container>
