@@ -1,0 +1,31 @@
+{
+  "HomePage": {
+    "hello": "Hello there! I'm Bassam Elsayed ",
+    "title": "My experiences:",
+    "descriptionOne": "I'm a Front-end developer that loves",
+    "spanOne": "building products",
+    "descriptionTwo": "and web apps that can impact millions of lives",
+    "descriptionThree": "I'm a junior Front-end with",
+    "spanTwo": "1 year of experience",
+    "descriptionFour": "building scalable webs that are performance optimized and good looking.",
+    "experience": "I built a large-scale e-commerce project featuring both a dashboard and a web app for managing operations. As a Frontend Developer, I contributed to building and optimizing user interfaces using Next.js, React, Tailwind CSS, and MUI. I also integrated Socket.io to provide dynamic updates, ensuring a seamless and high-performance user experience."
+  },
+  "About": {
+    "paragraphOne": "Hey there, i'm Bassam graduated from the faculty of ART philosophy department, I didn't find myself in this field when I was in college , last year in college, I learned Python just for fun and I found myself. found my passion in programming, when you love something you're gonna be great at it, I love coding and I do love learning, so i decided to dive more into this field, took a lot of courses, and decided to be a Front-End web developer.",
+    "paragraphTwo": "Since the early days of my journey, I've been captivated by the art of crafting exceptional digital experiences. As a developer, I thrive on turning lines of code into functional and elegant solutions. My goal is to not just create software, but to build digital marvels that seamlessly merge form and function.",
+    "paragraphThree": "I'm well-represented and active team player able to work under pressure maintaining the high standards of the organization, Worked on some interesting front-end projects.",
+    "paragraphFour": "There's yet more to learn, yet more problems to solve, yet more to build. So excited to learn more and be a better developer.",
+    "paragraphFive": "Thank you for being here, and I can't wait to embark on this adventure with you."
+  },
+  "Projects": {
+    "title": "What I've been working on:"
+  },
+  "Contact": {
+    "title": "Contact me",
+    "description": " Reach out to me over email or fill up this contact form. I will get back to you ASAP - I promise."
+  },
+  "Resume": {
+    "title": "Work History",
+    "description": " Reach out to me over email or fill up this contact form. I will get back to you ASAP - I promise."
+  }
+}
