@@ -46,7 +46,7 @@ export const Sidebar = () => {
         )}
       </AnimatePresence>
       <button
-        className={`fixed lg:hidden bottom-4  h-8 w-8 border border-neutral-200 rounded-full backdrop-blur-sm flex items-center justify-center z-50 ${
+        className={`fixed bg-black text-white lg:hidden bottom-4  h-8 w-8 border border-neutral-200 rounded-full backdrop-blur-sm flex items-center justify-center z-50 ${
           locale === "en" ? "right-6" : "left-9"
         }`}
         onClick={() => setOpen(!open)}
