@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className="flex justify-center items-center">
         <button className="mt-6  relative inline-block cursor-pointer no-underline group rounded-full bg-slate-900 p-2 text-xs font-semibold leading-6 text-white shadow-2xl ">
-          <a href="/Bassam Elsayed - Front-end.pdff" download>
+          <a href="/Bassam Elsayed - Front-end.pdf" download>
             {locale === "en" ? "Download cv" : "تحميل السيرة الذاتيه"}
           </a>
         </button>
