@@ -3,11 +3,6 @@ import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import { WorkHistory } from "@/components/WorkHistory";
 
-import { Container } from "@/components/Container";
-
-import { Heading } from "@/components/Heading";
-import { WorkHistory } from "@/components/WorkHistory";
-
 import { useLocale, useTranslations } from "next-intl";
 
 export default function Home() {
