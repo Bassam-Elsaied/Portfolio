@@ -17,11 +17,11 @@ export default function Home() {
         <span className="bg-neutral-100 px-1 py-0.5">{t("spanOne")}</span>
         {t("descriptionTwo")}
       </p>
-      <p className="max-w-xl mt-4 text-sm lg:text-base font-normal text-secondary">
+      {/* <p className="max-w-xl mt-4 text-sm lg:text-base font-normal text-secondary">
         {t("descriptionThree")}
         <span className="bg-neutral-100 px-1 py-0.5">{t("spanTwo")}</span>
         {t("descriptionFour")}
-      </p>
+      </p> */}
 
       <div className="flex justify-center items-center">
         <button className="mt-6  relative inline-block cursor-pointer no-underline group rounded-full bg-slate-900 p-2 text-xs font-semibold leading-6 text-white shadow-2xl ">

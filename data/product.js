@@ -6,6 +6,8 @@ import zentry from "../public/images/zentry-clone-six-tau.vercel.app.png";
 import zentry2 from "../public/images/zentry-clone-six-tau.vercel2.app.png";
 import popcorn from "../public/images/popcorn-movie-xi.vercel.app.png";
 import popcorn2 from "../public/images/popcorn-movie-xi.vercel2.app.png";
+import myProtfolio from "../public/images/my-portfolio-snowy-nu-82.vercel.png";
+import myProtfolio2 from "../public/images/my-portfolio-snowy-nu-82.png";
 
 export const products = [
   {
@@ -70,5 +72,21 @@ export const products = [
       "is a sleek and interactive movie browsing application built with React. Users can explore a vast collection of movies, save their favorites to a personal watchlist, and rate them using a star system. The app features a responsive design with Css and dynamic animations for an engaging user experience.",
     content_ar:
       "تطبيق أنيق وتفاعلي لتصفح الأفلام، مُصمم بتقنية React. يُتيح التطبيق للمستخدمين استكشاف مجموعة واسعة من الأفلام، وحفظ أفلامهم المفضلة في قائمة مشاهدة شخصية، وتقييمها بنظام النجوم. يتميز التطبيق بتصميم متجاوب مع CSS ورسوم متحركة ديناميكية لتجربة مستخدم تفاعلية.",
+  },
+  {
+    href: "my-portfolio-snowy-nu-82.vercel.app",
+    title: "Bassam portfolio",
+    description_en:
+      "Another personal website with some animation ",
+    description_ar:
+      "موقع شخصي آخر مع بعض الانيميشن",
+    thumbnail: myProtfolio,
+    images: [myProtfolio, myProtfolio2],
+    stack: ["Nextjs", "Reactjs", "framerMotion", "Tailwindcss"],
+    slug: "BassamPortfolio",
+    content_en:
+    "My personal website as a front-end developer, showcasing my work, skills, and projects using the latest web technologies like Next.js, React, and Tailwind CSS. The site was carefully designed to provide a seamless user experience and a look that is truly my identity and attention to detail.",
+    content_ar:
+    "موقعي الشخصي كمطور واجهات أمامية، أعرض فيه أعمالي، مهاراتي، ومشاريعي باستخدام أحدث تقنيات الويب مثل Next.js، React، وTailwind CSS. تم تصميم الموقع بعناية ليوفر تجربة مستخدم سلسة ومظهر عصري يعكس هويتي البرمجية واهتمامي بالتفاصيل.",
   },
 ];

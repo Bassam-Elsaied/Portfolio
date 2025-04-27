@@ -12,10 +12,25 @@ import { TechStack } from "./TechStack";
 const timeline = [
   {
     company: "ENS",
-    title: "Junior Front-end Developer",
+    title: "Front-end Developer",
     date: "2024 - Present",
     description_en: "Building the future of e-commerce",
     description_ar: "بناء مستقبل التجارة الإلكترونية",
+    descriptionTwo_en:
+      "I built a large-scale e-commerce project featuring both a dashboard and a web app for managing operations. As a Frontend Developer, I contributed to building and optimizing user interfaces using Next.js, React, Tailwind CSS, and MUI. I also integrated Socket.io to provide dynamic updates, ensuring a seamless and high-performance user experience.",
+    descriptionTwo_ar:
+      "قمتُ ببناء مشروع تجارة إلكترونية واسع النطاق يضم لوحة تحكم وتطبيق ويب لإدارة العمليات. وبصفتي مطور واجهات أمامية، ساهمتُ في بناء وتحسين واجهات المستخدم باستخدام Next.js وReact وTailwind CSS وMUI. كما دمجتُ Socket.io لتوفير تحديثات ديناميكية، مما يضمن تجربة مستخدم سلسة وعالية الأداء.",
+  },
+  {
+    company: "FreeLance",
+    title: " Front-end Developer",
+    date: "2025",
+    description_en: "Building Quiz game ",
+    description_ar: "قمت ببناء موقع فيه العديد من الاسئلة بطريقة مسليه",
+    descriptionTwo_ar:
+      "موقع 'Learning Game 'هو تجربة تفاعلية تهدف إلى دمج التعلم باللعب. يقدم مجموعة من الألعاب البسيطة المصممة لتقوية مهارات الفهم والتركيز،",
+    descriptionTwo_en:
+      "The Learning Game website is an interactive platform that integrates learning with play. It features a series of mini-games to help you develop and master your skills.",
   },
 ];
 
@@ -44,7 +59,11 @@ export const WorkHistory = () => {
               {locale === "en" ? item.description_en : item.description_ar}
             </Paragraph>
 
-            <Step>{t("experience")}</Step>
+            <Step>
+              {locale === "en"
+                ? item.descriptionTwo_en
+                : item.descriptionTwo_ar}
+            </Step>
           </div>
         </div>
       ))}

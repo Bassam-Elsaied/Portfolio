@@ -24,7 +24,7 @@ export const TechStack = () => {
       className: "h-10 w-14",
     },
     {
-      title: "Reacr.js",
+      title: "React.js",
       src: "/images/logos/icons8-react-80.png",
 
       className: "h-10 w-14",
@@ -77,6 +77,12 @@ export const TechStack = () => {
 
       className: "h-10 w-10",
     },
+    {
+      title: "Sanity",
+      src: "/images/logos/sanity.png",
+
+      className: "h-10 w-10",
+    },
   ];
   return (
     <div>
@@ -86,22 +92,27 @@ export const TechStack = () => {
       >
         Tech Stack
       </Heading>
-      <div className="flex flex-wrap items-center justify-center">
+      <div className="flex flex-wrap items-center justify-between">
         {stack.map((item) => (
-          <div
-            key={item.src}
-            className="relative w-16 h-16 mr-4 mb-4 text-center group"
-          >
-            <Image
-              src={item.src}
-              width={64}
-              height={64}
-              alt={item.title}
-              className={twMerge("object-contain  mb-4", item.className)}
-            />
-            <p className="text-xs text-center font-bold text-gray-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div key={item.src} className="group relative ">
+            <button>
+              <Image
+                src={item.src}
+                width={64}
+                height={64}
+                alt={item.title}
+                className={twMerge("object-contain mb-4", item.className)}
+              />
+            </button>
+            <span
+              className="absolute -top-14 left-[50%] -translate-x-[50%] 
+              z-20 origin-left scale-0 px-3 rounded-lg border 
+              border-gray-300 bg-white py-2 text-sm font-bold
+              shadow-md transition-all duration-300 ease-in-out 
+              group-hover:scale-100"
+            >
               {item.title}
-            </p>
+            </span>
           </div>
         ))}
       </div>

@@ -116,24 +116,24 @@ export const Navigation = ({ setOpen, locale }) => {
 };
 
 const SidebarHeader = ({ locale }) => {
-  const text = locale === "en" ? "Developer" : "مطور";
+  const text = locale === "en" ? "Front-End" : "مطور";
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
 
-  useEffect(() => {
-    if (index < text.length) {
-      const timeout = setTimeout(() => {
-        setDisplayedText((prev) => prev + text[index]);
-        setIndex(index + 1);
-      }, 100);
-      return () => clearTimeout(timeout);
-    } else {
-      setTimeout(() => {
-        setDisplayedText("");
-        setIndex(0);
-      }, 1000);
-    }
-  }, [index, text]);
+  // useEffect(() => {
+  //   if (index < text.length) {
+  //     const timeout = setTimeout(() => {
+  //       setDisplayedText((prev) => prev + text[index]);
+  //       setIndex(index + 1);
+  //     }, 100);
+  //     return () => clearTimeout(timeout);
+  //   } else {
+  //     setTimeout(() => {
+  //       setDisplayedText("");
+  //       setIndex(0);
+  //     }, 1000);
+  //   }
+  // }, [index, text]);
 
   return (
     <div className="flex space-x-2">
@@ -148,7 +148,7 @@ const SidebarHeader = ({ locale }) => {
         <p className="font-bold text-primary">
           {locale === "en" ? "Bassam Elsayed" : "بسام السيد"}
         </p>
-        <p className="font-light text-secondary">{displayedText}</p>
+        <p className="font-light text-secondary">{text}</p>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import { useTranslations } from "next-intl";
+import Card from "@/components/Card";
 
 export default function About() {
   const t = useTranslations("About");
@@ -50,14 +51,23 @@ export default function About() {
           ))}
         </div>
 
-        <div className="max-w-4xl text-gray-500">
+        <motion.div
+          initial={{ x: 20, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            staggerChildren: 0.1,
+          }}
+          className="max-w-4xl text-gray-500"
+        >
           <Paragraph className=" mt-4">{t("paragraphOne")}</Paragraph>
           <Paragraph className=" mt-4">{t("paragraphTwo")}</Paragraph>
 
           <Paragraph className=" mt-4">{t("paragraphThree")}</Paragraph>
           <Paragraph className=" mt-4">{t("paragraphFour")}</Paragraph>
-          <Paragraph className=" mt-4">{t("paragraphFive")}</Paragraph>
-        </div>
+        </motion.div>
+
+        <Card />
       </div>
     </Container>
   );
