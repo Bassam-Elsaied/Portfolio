@@ -74,7 +74,7 @@ export const products = [
       "تطبيق أنيق وتفاعلي لتصفح الأفلام، مُصمم بتقنية React. يُتيح التطبيق للمستخدمين استكشاف مجموعة واسعة من الأفلام، وحفظ أفلامهم المفضلة في قائمة مشاهدة شخصية، وتقييمها بنظام النجوم. يتميز التطبيق بتصميم متجاوب مع CSS ورسوم متحركة ديناميكية لتجربة مستخدم تفاعلية.",
   },
   {
-    href: "my-portfolio-snowy-nu-82.vercel.app",
+    href: "https://my-portfolio-snowy-nu-82.vercel.app",
     title: "Bassam portfolio",
     description_en:
       "Another personal website with some animation ",
